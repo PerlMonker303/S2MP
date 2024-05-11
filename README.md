@@ -1,4 +1,5 @@
 <h1>Sketch 2 Map</h1>
+<h4>Update 2024 - check below for better results using Stable Diffusion</h4>
 
 ![Image Hero](repo_images/img1.png)
 
@@ -81,3 +82,19 @@ using my data.
 </p>
 
 ![Image Hero](repo_images/img2.png)
+
+
+<h2>ControlNet Results</h2>
+
+<p>ControlNet is a neural network architecture that aims to offer more control to the generation of images using Stable
+Diffusion. It consists of two copies of Stable Diffusion, one locked and one unlocked that is trained on custom data to 
+solve a particular task. In our case, we trained it to generate satellite images. Some of the results are displayed 
+below:</p>
+
+![Image Hero](repo_images/img3.png)
+
+![Gif with traffic](repo_images/animation_new.gif)
+
+<p>There is a clear improvement in the quality of the results when using the new technique. Some artifacts are still 
+visible in the image, such as flickering parked cars or road lines. Training on more images is expected to solve this 
+issue.</p>
